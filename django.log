@@ -2566,3 +2566,18 @@ WARNING 2024-03-03 18:06:57,256 Not Found: /myapp4/user/add/
 WARNING 2024-03-03 18:06:57,257 "GET /myapp4/user/add/ HTTP/1.1" 404 2231
 WARNING 2024-03-03 18:06:58,708 Not Found: /myapp4/user/add/
 WARNING 2024-03-03 18:06:58,708 "GET /myapp4/user/add/ HTTP/1.1" 404 2231
+INFO 2024-03-03 20:07:00,222 Watching for file changes with StatReloader
+INFO 2024-03-03 20:07:37,821 C:\Users\shuri\PycharmProjects\Homework6\hw6\hw6\settings.py changed, reloading.
+INFO 2024-03-03 20:07:38,282 Watching for file changes with StatReloader
+INFO 2024-03-03 20:07:43,778 "GET /admin/storeapp/products/ HTTP/1.1" 200 23609
+WARNING 2024-03-03 20:07:43,794 Not Found: /static/admin/js/vendor/xregexp/xregexp.min.js
+WARNING 2024-03-03 20:07:43,795 Not Found: /static/admin/js/vendor/jquery/jquery.min.js
+WARNING 2024-03-03 20:07:43,798 "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 404 179
+WARNING 2024-03-03 20:07:43,798 "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 404 179
+INFO 2024-03-03 20:07:43,802 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-03 20:31:47,908 C:\Users\shuri\PycharmProjects\Homework6\hw6\hw6\settings.py changed, reloading.
+INFO 2024-03-03 20:31:48,411 Watching for file changes with StatReloader
+INFO 2024-03-03 20:32:43,440 C:\Users\shuri\PycharmProjects\Homework6\hw6\hw6\settings.py changed, reloading.
+INFO 2024-03-03 20:32:43,965 Watching for file changes with StatReloader
+INFO 2024-03-03 20:39:00,523 C:\Users\shuri\PycharmProjects\Homework6\hw6\hw6\settings.py changed, reloading.
+INFO 2024-03-03 20:39:01,026 Watching for file changes with StatReloader
