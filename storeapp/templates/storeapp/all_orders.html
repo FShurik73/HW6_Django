@@ -1,0 +1,15 @@
+{% extends "storeapp/base.html" %}
+
+{% block title %}{{ client.name }}'s Orders{% endblock %}
+
+{% block content %}
+    <h2>все заказы пользователя: {{ client.name }}</h2>
+    {% for order in orders %}
+        <h1>Заказ</h1>
+        <p>от {{ order.order_date }}</p>
+        <p>сумма заказа:{{ order.total_sum }}</p>
+                <h3>Продукты</h3>
+                <p>{{ products.pop }}</p>
+
+    {% endfor %}
+{% endblock %}

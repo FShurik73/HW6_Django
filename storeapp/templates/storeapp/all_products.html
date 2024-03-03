@@ -1,0 +1,26 @@
+{% extends 'storeapp/base.html' %}
+
+{% block title %}Продукты пользователя {% endblock %}
+
+{% block content %}
+    <h2>Все продукты пользователя: {{ client.name }} за последние 7 дней (всего: {{ product_count.0 }})</h2>
+    <ul>
+        {% for product in product_set.0 %}
+            <li>{{ product.name }} (количество на складе: {{ product.quantity }}, цена: {{ product.price }})</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Все продукты пользователя: {{ client.name }} за последние 30 дней (всего: {{ product_count.1 }})</h2>
+    <ul>
+        {% for product in product_set.1 %}
+            <li>{{ product.name }} (количество на складе: {{ product.quantity }}, цена: {{ product.price }})</li>
+        {% endfor %}
+    </ul>
+
+    <h2> Все продукты пользователя: {{ client.name }} за последние 365 дней (всего: {{ product_count.2 }})</h2>
+    <ul>
+        {% for product in product_set.2 %}
+            <li>{{ product.name }} (количество на складе: {{ product.quantity }}, цена: {{ product.price }})</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
